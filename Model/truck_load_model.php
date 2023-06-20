@@ -6,7 +6,7 @@ class truck_load_model {
     }
     //muestra todas las cargas
     public function getAllLoad() {
-        $query = $this->db->prepare("SELECT * FROM truck_load");
+        $query = $this->db->prepare("SELECT truck_load.id_load, truck_load.type_load, truck_load.value, COUNT(travel.id_load) AS cantidad FROM travel RIGHT JOIN truck_load ON travel.id_load = truck_load.id_load GROUP BY truck_load.id_load");
         $query->execute();
         $load = $query->fetchAll(PDO::FETCH_OBJ); 
         return $load;
