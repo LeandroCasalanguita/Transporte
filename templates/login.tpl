@@ -17,7 +17,7 @@
     </div>
     <button type="submit" class="btn btn-primary mt-3">Login</button>
     </form>
+    <h2>{$fail}</h2>
 </div>
-<h2>{$fail}</h2>
 {/if}
 {include 'footer.tpl'}

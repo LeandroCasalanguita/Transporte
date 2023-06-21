@@ -21,7 +21,7 @@
 </div>
     <button type="submit" class="btn btn-primary mt-3">Registrarme</button>
     </form>
+    <h2> {$uservalido}</h2>
 </div>
 {/if}
-<h2> {$uservalido}</h2>
 {include 'footer.tpl' }
