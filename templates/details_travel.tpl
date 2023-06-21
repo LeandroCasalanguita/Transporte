@@ -23,5 +23,6 @@
         {/foreach}
     </tbody> 
 </table>
+<a class="btn btn-primary mt-3" href="travel">Volver</a>
 </div>
 {include 'footer.tpl'}

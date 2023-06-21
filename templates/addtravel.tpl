@@ -19,6 +19,7 @@
     <input type="text" required class="form-control" id="driver" name="driver">
 </div>
 <button type="submit" class="btn btn-primary mt-3">Agregar</button>
+<a class="btn btn-primary mt-3" href="travel">Volver</a>
 </form>
 </div>
 {include 'footer.tpl'}

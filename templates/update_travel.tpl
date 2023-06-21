@@ -14,6 +14,7 @@
     <input type="text" name="driver" id="driver" required class="form-control" placeholder={$travel->driver}>
     </div>
     <button type="submit" class="btn btn-primary mt-3">Agregar</button>
+    <a class="btn btn-primary mt-3" href="travel">Volver</a>
     </form>
 {/foreach}
 </div>
